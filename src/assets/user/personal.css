@@ -1,0 +1,427 @@
+.layer {
+    zoom: 1;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .oh {
+    overflow: hidden;
+  }
+  
+  .blockmb {
+      margin-bottom: 20px;
+  }
+  .block {
+      zoom: 1;
+      width: 100%;
+      line-height: 1.5;
+      margin-bottom: 32px;
+  }
+  .people-header {
+      position: relative;
+      width: 1000px;
+  }
+  .people-header-bg {
+      position: relative;
+      width: 1000px;
+      height: 220px;
+      overflow: hidden;
+      color: #fff;
+  }
+  .people-header-bg .header-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1000px;
+      height: 220px;
+  }
+  .people-header-bg .people-bg-mask {
+      padding: 0 20px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 34px;
+      line-height: 34px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.02)),to(rgba(0,0,0,.5)));
+      background: -webkit-linear-gradient(top,rgba(0,0,0,.02),rgba(0,0,0,.5));
+      background: -o-linear-gradient(top,rgba(0,0,0,.02),rgba(0,0,0,.5));
+      background: linear-gradient(to bottom,rgba(0,0,0,.02),rgba(0,0,0,.5));
+  }
+  .people-header-bg .people-bg-mask .favourite-count {
+      position: absolute;
+      bottom: 0;
+      right: 20px;
+  }
+  .preview-action {
+      display: none;
+      position: relative;
+      width: 998px;
+      height: 65px;
+      line-height: 65px;
+      text-align: center;
+      border-left: 1px solid #e0e0e0;
+      border-right: 1px solid #e0e0e0;
+      border-bottom: 1px solid #e0e0e0;
+      -webkit-box-shadow: 0 2px 6px 0 rgba(204,204,204,.5);
+      box-shadow: 0 2px 6px 0 rgba(204,204,204,.5);
+      z-index: 998;
+      background-color: #fff;
+      margin-bottom: 40px;
+  }
+  .clr {
+      zoom: 1;
+  }
+  .people-header-info {
+      position: relative;
+      margin-top: -50px;
+      width: 1000px;
+      overflow: hidden;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -moz-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+  }
+  .people-header-info .people-info {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: column nowrap;
+      -moz-box-orient: vertical;
+      -moz-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -moz-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 460px;
+      padding: 0;
+      color: #aaa;
+  }
+  .people-header-info .people-info .people-avatar {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      position: relative;
+  }
+  a:link, a:visited {
+      text-decoration: none;
+      color: #5678a0;
+  }
+  .people-header-info .people-info .people-avatar img:first-child {
+      width: 96px;
+      height: 96px;
+      border: 2px solid #fff;
+      border-radius: 100%;
+  }
+  .people-header-info .people-info .people-name a {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 1.5;
+      text-align: center;
+      color: #444;
+  }
+  .people-header-info .people-info .people-funs {
+      margin-top: 11px;
+      text-align: center;
+  }
+  .people-header-info .people-info .people-funs a:first-child {
+      padding-right: 16px;
+      border-right: 1px solid #cdcdcd;
+  }
+  .people-header-info .people-info .people-funs a {
+      display: inline-block;
+      font-size: 16px;
+      color: #777;
+  }
+  .people-header-info .people-info .people-funs a:last-child {
+      margin-left: 16px;
+  }
+  .people-header-info .people-info .people-desc {
+      padding: 0 40px;
+      text-align: center;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+  }
+  .people-header-info .people-info .people-desc, .people-header-info .people-info .people-social {
+      margin-top: 10px;
+      line-height: 1.7;
+  }
+  .people-header-info .people-info .people-action {
+      height: 38px;
+      text-align: center;
+      line-height: 32px;
+      margin: 10px auto 0 auto;
+  }
+  .people-header-info .people-info .people-action .people-edit {
+      position: relative;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -moz-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+  }
+  .people-header-info .people-info .people-action .people-edit .people-edit-btn {
+      display: none;
+      display: inline-block;
+      width: 42px;
+      height: 20px;
+      line-height: 20px;
+      border-radius: 12px;
+      color: #fff;
+      background-color: #000;
+      opacity: .4;
+  }
+  .header-bg-change-bg, .header-bg-change-btn:hover, .header-bg-change-btn:link, .header-bg-change-btn:visited {
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-decoration: none;
+  }
+  .header-bg-change, .header-bg-change-bg, .header-bg-change-btn:hover, .header-bg-change-btn:link, .header-bg-change-btn:visited {
+      width: 84px;
+      height: 32px;
+      text-align: center;
+      line-height: 32px;
+      color: #fff;
+      border-radius: 17px;
+  }
+  .people-header:hover .header-bg-change {
+      display: block;
+  }
+  .header-bg-change {
+      display: none;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+  }
+  .header-bg-change-bg {
+      background-color: #000;
+      opacity: .4;
+  }
+  .abtn-up {
+      overflow: hidden;
+      position: relative;
+  }
+  @media (min-width: 0px)
+  .dib {
+      display: inline-block;
+  }
+  .dib {
+      float: none!important;
+      display: inline-block;
+      display: -moz-inline-box;
+      -moz-box-align: stretch;
+      vertical-align: middle;
+  }
+  .abtn-up input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 80px;
+      height: 80px;
+      overflow: hidden;
+      opacity: 0;
+      cursor: pointer;
+  }
+  #people-detail {
+      margin: 0 auto;
+      width: 810px;
+  }
+  #people-detail .people-nav-wrap {
+      float: right;
+      width: 210px;
+      margin-bottom: 40px;
+      background-color: #fff;
+  }
+  #people-detail .people-nav-wrap .people-nav {
+      position: relative;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: column nowrap;
+      -moz-box-orient: vertical;
+      -moz-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+      text-align: center;
+      font-size: 0;
+  }
+  #people-detail .people-nav-wrap .people-nav li.nav-cur {
+      background-color: #fafafa;
+  }
+  #people-detail .people-nav-wrap .people-nav li {
+      display: inline-block;
+      min-width: 90px;
+      text-align: center;
+      position: relative;
+  }
+  li {
+      vertical-align: middle;
+  }
+  #people-detail .people-nav-wrap .people-nav li a {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      font-size: 14px;
+      line-height: 32px;
+      color: #444;
+      padding: 10px;
+      padding-left: 27px;
+  }
+  #people-detail .detail-item {
+      width: 600px;
+  }
+  .my-dynamic .dynamic-feed-item {
+      padding: 20px;
+      border: 1px solid #e0e0e0;
+      margin-bottom: 20px;
+      font-size: 0;
+  }
+  .my-dynamic .dynamic-feed-item .user-info {
+      position: relative;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+  }
+  .my-dynamic .dynamic-feed-item .dynamic-album-desc {
+      max-width: 558px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      font-size: 16px;
+      line-height: 24px;
+      color: #444;
+      margin-top: 16px;
+      margin-bottom: 10px;
+  }
+  .my-dynamic .dynamic-feed-item {
+      padding: 20px;
+      border: 1px solid #e0e0e0;
+      margin-bottom: 20px;
+      font-size: 0;
+  }
+  .my-dynamic .dynamic-feed-item .dynamic-collect-single-img {
+      width: 360px;
+      border-radius: 8px;
+      overflow: hidden;
+  }
+  .my-dynamic .dynamic-feed-item .dynamic-collect-single-img img {
+      width: 100%;
+  }
+  .my-dynamic .dynamic-feed-item .user-info .avatar {
+    -webkit-flex-basis: 50px;
+    -ms-flex-preferred-size: 50px;
+    flex-basis: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.my-dynamic .dynamic-feed-item .user-info .user-desc .username {
+    display: inline-block;
+    font-size: 18px;
+    color: #444;
+    line-height: 25px;
+}
+.my-dynamic .dynamic-feed-item .user-info .user-desc {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-left: 8px;
+}
+.my-dynamic .dynamic-feed-item .user-info .user-desc .publish-time {
+    color: #aaa;
+    font-size: 16px;
+    line-height: 22px;
+}
+.my-dynamic .dynamic-feed-item .user-info {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+p{
+    margin: 0;;
+}
+
+.people-nav i{
+    font-size: 24px !important;
+    vertical-align: middle;
+}
+
+#people-detail .people-nav-wrap .people-nav li.nav-cur::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 3px;
+    height: 18px;
+    background-color: #ff7e7e;
+    border-radius: 2.6px;
+}

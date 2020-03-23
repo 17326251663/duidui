@@ -1,0 +1,62 @@
+html,body {
+    height: 100%;
+}
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd {
+    /* 在指定区域内绘制元素 */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    /* 去掉超链接的下划线 */
+    text-decoration: none;
+}
+ul,li {
+    /* 列表标签取消样式 */
+    list-style: none;
+}
+
+/*滚动条的宽度*/
+
+::-webkit-scrollbar {
+    width:9px;
+    height:9px;
+}
+
+/*外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果*/
+
+::-webkit-scrollbar-track {
+    width: 6px;
+    background-color:#ffffff00;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius:2em;
+}
+
+/*滚动条的设置*/
+
+::-webkit-scrollbar-thumb {
+    background-color:#ff7e7e34;
+    background-clip:padding-box;
+    min-height:28px;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius:2em;
+}
+/*滚动条移上去的背景*/
+
+::-webkit-scrollbar-thumb:hover {
+     background-color:#fff;
+}
